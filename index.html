@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+
+      <meta charset="UTF-8">
+
+      <link rel="stylesheet" href="./mdl/material.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="./app.css">
+      
+      <title>Sync</title>
+      
+    </head>
+    <body>
+      <h1>Sync</h1>
+
+      <div class="mdl-grid">
+	<div class="mdl-cell mdl-cell--6-col">
+	  <form action="#">
+	    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+	      <input class="mdl-textfield__input" type="text" id="folder1">
+	      <label class="mdl-textfield__label" for="sample3">Folder 1</label>
+	    </div>
+	  </form>
+	</div>
+
+	<div class="mdl-cell mdl-cell--6-col">	  
+	  <form action="#">
+	    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+	      <input class="mdl-textfield__input" type="text" id="folder2">
+	      <label class="mdl-textfield__label" for="sample3">Folder 2</label>
+	    </div>
+	  </form>
+	</div>
+      </div>
+      
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+	Sync
+      </button>
+
+      <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+	<input type="checkbox" id="switch-1" class="mdl-switch__input" checked>
+	<span class="mdl-switch__label">Auto-sync watch</span>
+      </label>
+      
+    </body>
+    <script src="./mdl/material.js"></script>
+  </html>
